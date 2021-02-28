@@ -24,6 +24,3 @@
 // const PI = 3.14;
 // console.log(PI);
 
-if(true){
-    let i = 1;
-}
