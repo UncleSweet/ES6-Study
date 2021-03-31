@@ -1,8 +1,11 @@
 //es6之前全局作用域和函数作用域
 
-// var name = '111';
+// console.log(window.name);               //有值
+// console.log(window.abc);                //undefined
+
 // console.log(name);
-// console.log(window.name);           //要在网页上运行即可
+// console.log(abc);
+
 
 // (function(){
 //     var age = 1;
@@ -26,3 +29,4 @@
 //     };
 //     fn();                                     //配合块级作用域和let声明，将函数私有化
 // }
+// fn();                                         //这里调用会出错
